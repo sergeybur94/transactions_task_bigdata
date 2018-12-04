@@ -16,11 +16,8 @@ import org.apache.hadoop.mapreduce.lib.output.*;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
-import org.apache.orc.mapred.OrcStruct;
-import org.apache.orc.mapred.OrcValue;
-import org.apache.orc.mapreduce.OrcInputFormat;
 import org.apache.log4j.BasicConfigurator;
-import org.apache.orc.mapreduce.OrcOutputFormat;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.io.*;

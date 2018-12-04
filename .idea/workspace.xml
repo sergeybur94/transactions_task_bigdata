@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7e8be9e-d6c4-4edf-b59e-4fda505ba195" name="Default Changelist" comment="" />
+    <list default="true" id="e7e8be9e-d6c4-4edf-b59e-4fda505ba195" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/A9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/A9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/InRecordAnomalies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/InRecordAnomalies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/beeline/anomalySearch/InRecordAnomalies$MapperInRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/beeline/anomalySearch/InRecordAnomalies$RndPartitioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/beeline/anomalySearch/InRecordAnomalies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/beeline/anomalySearch/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/beeline/anomalySearch/Main.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +46,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4253" />
-          <entry key="XML" value="57" />
+          <entry key="JAVA" value="5145" />
+          <entry key="XML" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,8 +57,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="6" />
+          <entry key="CLASS" value="6" />
+          <entry key="JAVA" value="7" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -58,17 +70,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+            <state relative-caret-position="-89">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="331">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,20 +91,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/InRecordAnomalies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="296" column="1" selection-end-line="296" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/A9.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="-419">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/SparkTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="123" column="19" lean-forward="true" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,9 +143,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/SparkTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/InRecordAnomalies.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/A9.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/Main.java" />
       </list>
     </option>
   </component>
@@ -152,7 +171,33 @@
             <path>
               <item name="anomalySearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="anomalySearch" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anomalySearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anomalySearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anomalySearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anomalySearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anomalySearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anomalySearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anomalySearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anomalySearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="anomalySearch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,10 +207,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543558671082" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543905314398" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../filesjoiner" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -181,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InRecordAnomalies">
+  <component name="RunManager" selected="Application.SparkTest">
     <configuration name="InRecordAnomalies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.beeline.anomalySearch.InRecordAnomalies" />
       <module name="anomalySearch" />
@@ -209,12 +254,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SparkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.beeline.anomalySearch.SparkTest" />
+      <module name="anomalySearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.beeline.anomalySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.InRecordAnomalies" />
+      <item itemvalue="Application.SparkTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparkTest" />
         <item itemvalue="Application.InRecordAnomalies" />
         <item itemvalue="Application.Main" />
       </list>
@@ -235,8 +295,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="-1" width="1890" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12295974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12295974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -245,7 +306,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945593" weight="0.32948583" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945593" visible="true" weight="0.32912722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -253,9 +314,9 @@
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33017877" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33017877" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005441" side_tool="true" weight="0.32948583" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32948583" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32912722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -269,6 +330,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/anomalySearch" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3.2.5.0.0-1245/hadoop-common-2.7.3.2.5.0.0-1245.jar!/org/apache/hadoop/util/ToolRunner.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -281,23 +347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="745" column="16" selection-start-line="745" selection-start-column="16" selection-end-line="745" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -334,20 +383,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/InRecordAnomalies.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0.jar!/org/apache/spark/sql/Dataset.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="296" column="1" selection-end-line="296" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0.jar!/org/apache/spark/sql/functions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/SparkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="123" column="19" lean-forward="true" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/InRecordAnomalies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/A9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="-419">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/beeline/anomalySearch/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -420,6 +512,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

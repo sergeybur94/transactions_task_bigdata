@@ -31,10 +31,10 @@ public class Main extends Configured implements Tool {
 
   public final int run(String[] args) throws Exception {
 
-    InRecordAnomalies inRecord = new InRecordAnomalies();
+//    InRecordAnomalies inRecord = new InRecordAnomalies();
     try {
       System.out.println("Path: "+args[0]);
-      inRecord.main(args);
+    //  inRecord.main(args);
     } catch (Exception | Error e){
       System.out.println("Err: "+e.getMessage());
     }

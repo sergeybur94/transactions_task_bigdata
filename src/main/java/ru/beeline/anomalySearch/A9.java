@@ -16,11 +16,7 @@ import org.apache.hadoop.mapreduce.lib.output.*;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
-import org.apache.orc.mapred.OrcStruct;
-import org.apache.orc.mapred.OrcValue;
-import org.apache.orc.mapreduce.OrcInputFormat;
 import org.apache.log4j.BasicConfigurator;
-import org.apache.orc.mapreduce.OrcOutputFormat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.io.*;
@@ -91,9 +87,8 @@ public class A9 extends Configured implements Tool {
 
   public static class ReducerA9 extends Reducer<Text, Text, Text, Text> {
 
-    public void reduce(Text key, Iterable<Text> values,
-                       Context context
-    ) throws IOException, InterruptedException {
+    public void reduce(Text key, Iterable<Text> values, Context context)
+        throws IOException, InterruptedException {
       for (Text value : values) {
         context.write(key, value);
       }
