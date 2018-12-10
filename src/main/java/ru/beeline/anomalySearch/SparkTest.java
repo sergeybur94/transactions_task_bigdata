@@ -1,17 +1,17 @@
 package ru.beeline.anomalySearch;
 
-import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.api.java.JavaSparkContext;
+//import org.apache.spark.api.java.JavaRDD;
+//import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.sql.*;
-import org.apache.spark.sql.types.DataTypes;
-import org.apache.spark.sql.types.StructField;
-import org.apache.spark.sql.types.StructType;
+//import org.apache.spark.sql.types.DataTypes;
+//import org.apache.spark.sql.types.StructField;
+//import org.apache.spark.sql.types.StructType;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.function.Function;
+//import java.util.Arrays;
+//import java.util.List;
+//import java.util.function.Function;
 
-import org.apache.spark.sql.functions;
+//import org.apache.spark.sql.functions;
 
 public class SparkTest {
   public static void main(String[] args) {
@@ -109,8 +109,7 @@ public class SparkTest {
         .option("header","false")
         .option("inferSchema", "true")
         .option("delimiter", "\u0001")
-        //.schema(schema)
-        .load("example/service_feature_2018_example")
+        .load("example")///service_feature_2018_example_100k
         .toDF("ban_src", "subscriber_no", "soc", "soc_seq_no", "service_ftr_seq_no", "sys_creation_date",
             "sys_update_date", "operator_id", "application_id", "dl_service_code", "dl_update_stamp",
             "soc_effective_date", "customer_id", "feature_code", "service_type", "soc_level_code",
@@ -123,12 +122,48 @@ public class SparkTest {
             "ban");
     //csv.show(80);
 
-    System.out.println("*/*/*/*/*/*/*/*/*/*/*/*/*/*/");
-    csv.filter(functions.col("service_class").equalTo("PP"))
-        .filter(functions.col("service_type").notEqual("P")).show();
-    csv.filter(functions.col("service_class").equalTo("SOC"))
-        .filter(functions.col("service_type").notEqual("O")).show();
-    //Dataset<Row> anom = csv
+    System.out.println(csv.count());
+//    //A8.2
+//    System.out.println("*/*/*/*/*/*/*/*/*/*/*/*/*/*/");
+//    csv.filter(functions.col("service_class").equalTo("PP"))
+//        .filter(functions.col("service_type").notEqual("P")).show();
+//    //A8.1
+//    csv.filter(functions.col("service_class").equalTo("SOC"))
+//        .filter(functions.col("service_type").notEqual("O")).show();
+//    //A8.3
+//    csv.filter(functions.col("service_class").notEqual("SOC"))
+//        .filter(functions.col("service_class").notEqual("PP")).show();
+    //
+//    csv.filter("soc == '77LEGO_1'")
+//        .show();
+//    //A7
+//    csv.filter("ftr_expiration_date < ftr_effective_date")
+//        .show(100);
+//    //A6
+//    csv.filter("ftr_effective_date < soc_effective_date")
+//        .show(100);
+//    //A5
+//    csv.filter("ban_src != customer_id")
+//        .show(100);
+//    //A4.1
+//    csv.filter(functions.col("operator_id").equalTo("\\N"))
+//        .filter(functions.col("application_id").equalTo("\\N"))// AND application_id != '\\N'")
+//        .show(100);
+//    //A4.2
+//    csv.filter(functions.col("operator_id").notEqual("\\N"))
+//        .filter(functions.col("application_id").notEqual("\\N"))// AND application_id != '\\N'")
+//        .show(100);
+//    //A3
+//    csv.filter("sys_creation_date < soc_effective_date")// AND application_id != '\\N'")
+//        .show(100);
+//    //A2
+//    csv.filter("sys_update_date < sys_creation_date")// AND application_id != '\\N'")
+//        .show(100);
+        //A2
+    csv.filter("ban_src == 688212691")// AND application_id != '\\N'")
+        .show(100);
+
+    //csv.orderBy(functions.asc("soc_seq_no")).show(10000);
 
     spark.stop();
   }

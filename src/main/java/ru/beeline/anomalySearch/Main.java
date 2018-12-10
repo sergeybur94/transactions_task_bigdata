@@ -31,7 +31,8 @@ public class Main extends Configured implements Tool {
 
   public final int run(String[] args) throws Exception {
 
-//    InRecordAnomalies inRecord = new InRecordAnomalies();
+    InRecordAnomalies inRecord = new InRecordAnomalies();
+    inRecord.main(args);
     try {
       System.out.println("Path: "+args[0]);
     //  inRecord.main(args);
